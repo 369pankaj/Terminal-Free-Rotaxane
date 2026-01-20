@@ -1,0 +1,5 @@
+source leaprc.gaff
+loadamberparams axle.frcmod
+axle = loadmol2 axle_resp.mol2
+saveamberparm axle axle_resp.prmtop axle_resp.inpcrd
+quit
